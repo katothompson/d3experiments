@@ -1,0 +1,19 @@
+{
+  "name": "d3jsexp",
+  "version": "1.0.0",
+  "description": "Experiments with D3js",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kato Thompson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "d3": "^4.10.0",
+    "express": "^4.15.3"
+  }
+}

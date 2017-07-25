@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>A D3 Experiment</title>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="static/d3experiments.js"></script>
+
+    <style>
+      .title {
+        font-size: 2em;
+      }
+    </style>
+    <script></script>
+  </head>
+  <body>
+    <h1>3DJS</h1>
+    <div id='scatterPlot'></div>
+    <div id='newsvg'></div>
+    <p id='test' onclick="log()">Click Me!</p>
+    <div>
+      <svg width='450' height='450'>
+        <rect fill = "green" x='50' y='50' width='250' height='250'></rect>
+        <circle fill = 'yellow' stroke='black' stroke-width='5' r='50' cx='100' cy='100'></circle>
+        <line x1='100' y1='100' x2='100' y2='450' stroke-width='5' stroke='purple'></line>
+        <path d='M50 50 L100 100 L 100 50 L 150 100 L200 50 L 250 100' stroke="red" stroke-width='10' fill='none'></path>
+        <g transform= "translate(200, 300)">
+          <path d="M0 0 L 10 50 L 30 100 L 35 100 L 35 50 L55 50 L80 100 L85 100 L60 10Z" fill="blue" stroke="grey" stroke-width='2'></path>
+        </g>
+        <text class='title' x='10' y='30'>D3 Data Visualization</text>
+      </svg>
+    </div>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="static/d3experiments.js"></script>
+  </body>
+
+</html>
